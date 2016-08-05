@@ -1,0 +1,75 @@
+@media screen and (max-width: 1260px) {
+    .description-content {
+        width: 50%;
+    }
+
+    .iphone,
+    .description-line-top,
+    .description-line {
+        visibility: collapse;
+    }
+
+    .topic-wrapper {
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+        padding-top: 50px;
+    }
+
+    .description {
+        max-height: 100%;
+    }
+
+    .sub-content {
+        width: 70%;
+    }
+
+    .form-title {
+        margin: 0;
+    }
+
+    .contact-form {
+        margin: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  .description {
+      height: 685px;
+  }
+  
+  .header-content {
+      width: 520px;
+  }
+
+  .logo {
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .more-know {
+        width: 130px;
+        height: 36px;
+        border-radius: 7px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .contact {
+        visibility: collapse;
+    }
+    
+    .header-content {
+        width: 300px;
+    }
+
+    .contact-form {
+        width: 300px;
+    }
+
+    .query {
+        width: 250px;
+    }
+}
