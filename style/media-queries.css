@@ -6,7 +6,7 @@
     .iphone,
     .description-line-top,
     .description-line {
-        visibility: collapse;
+        display: none;
     }
 
     .topic-wrapper {
@@ -32,6 +32,17 @@
         margin: 0;
         margin: 0 auto;
     }
+
+    .footer-content {
+        width:80%;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .author-email {
+        margin-left: 10%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -45,8 +56,44 @@
 
   .logo {
       margin: 0;
+      margin-top: 15px;
   }
+
+  .contact-form {
+      float: none;
+      margin: 0;
+      width: 55%;
+      margin: 0 auto;
+      padding: 0;
+      display: block;
+  }
+
+   .query {
+        width: 250px;
+    }
+
+    .send {
+        float: none;
+        margin-left: 30%;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .copyright {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .author-email {
+        margin: 0;
+        display: inherit;
+        text-align: center;
+    }
 }
+
 
 @media screen and (max-width: 420px) {
     .more-know {
@@ -58,7 +105,7 @@
     }
 
     .contact {
-        visibility: collapse;
+        display: none;
     }
     
     .header-content {
@@ -66,10 +113,22 @@
     }
 
     .contact-form {
-        width: 300px;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    
+    .enter {
+        width: 125%;
     }
 
     .query {
-        width: 250px;
+        width: 125%;
     }
+
+    .footer {
+        margin-top: 30px;
+    }
+
 }
