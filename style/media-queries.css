@@ -1,6 +1,6 @@
 @media screen and (max-width: 1260px) {
     .description-content {
-        width: 50%;
+        width: 100%;
     }
 
     .iphone,
@@ -12,16 +12,17 @@
     .topic-wrapper {
         float: none;
         margin: 0 auto;
-        width: 70%;
         padding-top: 50px;
     }
 
     .description {
-        max-height: 100%;
+        max-height: 400px
     }
 
     .sub-content {
-        width: 70%;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
     }
 
     .form-title {
@@ -31,6 +32,7 @@
     .contact-form {
         margin: 0;
         margin: 0 auto;
+        float: none;
     }
 
     .footer-content {
@@ -46,12 +48,15 @@
 }
 
 @media screen and (max-width: 900px) {
-  .description {
-      height: 685px;
+    .description {
+        max-height: 450px;
   }
   
-  .header-content {
-      width: 520px;
+    .topic-wrapper {
+        width: 90%;
+  }
+    .header-content {
+        width: 520px;
   }
 
   .logo {
@@ -62,23 +67,44 @@
   .contact-form {
       float: none;
       margin: 0;
-      width: 55%;
+      width: 80%;
       margin: 0 auto;
       padding: 0;
       display: block;
   }
 
+    .enter {
+        width: 100%;
+        margin: 0 auto;
+    }
+
    .query {
-        width: 250px;
+        width: 100%;
     }
 
     .send {
+        display: block;
         float: none;
-        margin-left: 30%;
+        margin: 0 auto;
+    }
+
+    .send-wpapper {
+        margin: 0 auto;
+    }
+
+    .more-know {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 
     .footer {
         margin-top: 30px;
+    }
+
+    .footer-content {
+        line-height: 35px
     }
 
     .copyright {
@@ -112,23 +138,26 @@
         width: 300px;
     }
 
-    .contact-form {
-        width: 70%;
-        margin: 0;
-        padding: 0;
-        float: none;
-    }
-    
-    .enter {
-        width: 125%;
-    }
-
     .query {
-        width: 125%;
+        width: 100%;
     }
 
     .footer {
         margin-top: 30px;
+    }
+
+    .sub {
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+
+    }
+
+    .send {
+        display: block;
+        float: none;
+        margin: 0 auto;
     }
 
 }

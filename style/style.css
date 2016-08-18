@@ -89,26 +89,26 @@ body {
 }
 
 .header-content {
+    line-height: 75px;
     max-width: 1366px;
     margin: 0 auto;
 }
 
-.logo{
-    display: inline-block;
+.logo {
     font-family: Montserrat-Bold;
     font-size: 31px;
     color: #f9fbe7;
     letter-spacing: 2px;
-    max-width: 1366px;
     margin-left: 225px;
-    margin-top: 19px;
     text-decoration: none;
     float: left;
 }
 
-.contact {
+
+
+.nav-contact {
     float: right;
-    margin-right: 77px; 
+    margin-right: 77px;
 }
 
 .contact-us {
@@ -117,7 +117,6 @@ body {
     font-size: 16px;
     font-family: Gotham-Book;
     margin: 0;
-    margin-top: 24px;
     line-height: 25px;
     text-decoration: none;
     border-bottom: 3px solid #fdd835;
@@ -280,7 +279,6 @@ body {
     margin-top: 8px;
     margin-right: 93px;
     width: 570px;
-    display: inline-block;
     line-height: 72px;
     margin-bottom: 100px;
 }
@@ -307,6 +305,18 @@ body {
     text-indent: 20px;
 }
 
+.hevy {
+    background-image: url("../images/select.png");
+    background-repeat: no-repeat;
+    background-position: 94% 37%;
+    background-color: #ffffff; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+}
+
 .query {
     padding-top: 10px;
     height: 77px;
@@ -329,7 +339,7 @@ body {
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     min-height: 72px;
@@ -339,6 +349,8 @@ body {
 .footer-content {
     max-width: 1366px;
     margin: 0 auto;
+    vertical-align: middle;
+    line-height: 100px;
 }
 
 .copyright {
@@ -348,7 +360,6 @@ body {
     color: #636363; 
     font-style: normal;
     padding-left: 7px;
-    padding-top: 28px;
 }
 
 .author-email {
