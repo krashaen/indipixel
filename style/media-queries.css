@@ -48,6 +48,24 @@
 }
 
 @media screen and (max-width: 900px) {
+
+    .header-content {
+        margin-left: 30px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin: 0;
+        float: none;
+    }
+
+    .nav-contact {
+        float: none;
+        margin: 0;
+    }
+
     .description {
         max-height: 450px;
   }
@@ -55,13 +73,9 @@
     .topic-wrapper {
         width: 90%;
   }
-    .header-content {
-        width: 520px;
-  }
 
-  .logo {
-      margin: 0;
-      margin-top: 15px;
+  .sub {
+      margin-bottom: 72px; 
   }
 
   .contact-form {
@@ -130,14 +144,6 @@
         margin-top: 10px;
     }
 
-    .contact {
-        display: none;
-    }
-    
-    .header-content {
-        width: 300px;
-    }
-
     .query {
         width: 100%;
     }
@@ -146,18 +152,6 @@
         margin-top: 30px;
     }
 
-    .sub {
-        margin-bottom: 30px;
-    }
 
-    .contact-form {
-
-    }
-
-    .send {
-        display: block;
-        float: none;
-        margin: 0 auto;
-    }
 
 }

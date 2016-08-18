@@ -82,7 +82,6 @@ body {
 
 .header {
     width: 100%;
-    height: 100px;
     background-color: #e94643;
     position: relative;
     z-index: 100;
@@ -267,6 +266,7 @@ body {
     height: 480px;
     background-color: #ffffff;
     margin-top: 27px;
+
 }
 
 .sub-content {
