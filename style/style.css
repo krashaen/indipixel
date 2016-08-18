@@ -93,21 +93,21 @@ body {
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     display: inline-block;
     font-family: Montserrat-Bold;
     font-size: 31px;
     color: #f9fbe7;
     letter-spacing: 2px;
-    max-width: 1366px;
+    max-width: 1366px; /* Dont understand: for what? Possibly don't need */
     margin-left: 225px;
-    margin-top: 19px;
+    margin-top: 19px; /* Alignment on vertical center by common techniques, not fixed alignment */
     text-decoration: none;
     float: left;
 }
 
 .contact {
-    float: right;
+    float: right; /* Should be on nav */
     margin-right: 77px; 
 }
 
@@ -275,6 +275,7 @@ body {
     margin: 0 auto;
 }
 
+/* Check adaptive sizes: possibly give form fixed width and inputs percents width for better adaptive behaviour */
 .contact-form {
     float: right;
     margin-top: 8px;
@@ -336,6 +337,7 @@ body {
     background-color: #fefcf2;
 }
 
+/* Align to center and avoid aligning of children. Align on vertical center by common techniques */
 .footer-content {
     max-width: 1366px;
     margin: 0 auto;
